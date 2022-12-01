@@ -1,0 +1,23 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/thumbnails/*
+/storage/uploads/*
+/vendor
+/.idea
+/.vagrant
+/extra
+.htaccess*
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+composer.lock
+.env
+.env*
+# Ignore Backup folder from Whole project directory
+**/backup
+**/Backup
+*.sql
+/.phpstorm.meta.php

@@ -1,0 +1,203 @@
+<?php
+namespace App\Helpers;
+
+use App\Channels\BaseChannel;
+use Exception;
+use Illuminate\Support\HtmlString;
+use TijsVerkoyen\CssToInlineStyles\CssToInlineStyles;
+use Mail;
+
+/**
+ * Created by Gopal.
+ *
+ * @descriptions : that class contain most common function which we will use in entire project 
+ * 
+ */
+
+class Quote
+{
+
+    const CURRENCY_LIST = [
+        'AFA' => 'Afghan Afghani - ؋',
+        'ALL' => 'Albanian Lek - Lek',
+        'DZD' => 'Algerian Dinar - دج',
+        'AOA' => 'Angolan Kwanza - Kz',
+        'ARS' => 'Argentine Peso - $',
+        'AMD' => 'Armenian Dram - ֏',
+        'AWG' => 'Aruban Florin - ƒ',
+        'AUD' => 'Australian Dollar - $',
+        'AZN' => 'Azerbaijani Manat - m',
+        'BSD' => 'Bahamian Dollar - B$',
+        'BHD' => 'Bahraini Dinar - .د.ب',
+        'BDT' => 'Bangladeshi Taka - ৳',
+        'BBD' => 'Barbadian Dollar - Bds$',
+        'BYR' => 'Belarusian Ruble - Br',
+        'BEF' => 'Belgian Franc - fr',
+        'BZD' => 'Belize Dollar - $',
+        'BMD' => 'Bermudan Dollar - $',
+        'BTN' => 'Bhutanese Ngultrum - Nu.',
+        'BTC' => 'Bitcoin - ฿',
+        'BOB' => 'Bolivian Boliviano - Bs.',
+        'BAM' => 'Bosnia - KM',
+        'BWP' => 'Botswanan Pula - P',
+        'BRL' => 'Brazilian Real - R$',
+        'GBP' => 'British Pound Sterling - £',
+        'BND' => 'Brunei Dollar - B$',
+        'BGN' => 'Bulgarian Lev - Лв.',
+        'BIF' => 'Burundian Franc - FBu',
+        'KHR' => 'Cambodian Riel - KHR',
+        'CAD' => 'Canadian Dollar - $',
+        'CVE' => 'Cape Verdean Escudo - $',
+        'KYD' => 'Cayman Islands Dollar - $',
+        'XOF' => 'CFA Franc BCEAO - CFA',
+        'XAF' => 'CFA Franc BEAC - FCFA',
+        'XPF' => 'CFP Franc - ₣',
+        'CLP' => 'Chilean Peso - $',
+        'CNY' => 'Chinese Yuan - ¥',
+        'COP' => 'Colombian Peso - $',
+        'KMF' => 'Comorian Franc - CF',
+        'CDF' => 'Congolese Franc - FC',
+        'CRC' => 'Costa Rican ColÃ³n - ₡',
+        'HRK' => 'Croatian Kuna - kn',
+        'CUC' => 'Cuban Convertible Peso - $, CUC',
+        'CZK' => 'Czech Republic Koruna - Kč',
+        'DKK' => 'Danish Krone - Kr.',
+        'DJF' => 'Djiboutian Franc - Fdj',
+        'DOP' => 'Dominican Peso - $',
+        'XCD' => 'East Caribbean Dollar - $',
+        'EGP' => 'Egyptian Pound - ج.م',
+        'ERN' => 'Eritrean Nakfa - Nfk',
+        'EEK' => 'Estonian Kroon - kr',
+        'ETB' => 'Ethiopian Birr - Nkf',
+        'EUR' => 'Euro - €',
+        'FKP' => 'Falkland Islands Pound - £',
+        'FJD' => 'Fijian Dollar - FJ$',
+        'GMD' => 'Gambian Dalasi - D',
+        'GEL' => 'Georgian Lari - ლ',
+        'DEM' => 'German Mark - DM',
+        'GHS' => 'Ghanaian Cedi - GH₵',
+        'GIP' => 'Gibraltar Pound - £',
+        'GRD' => 'Greek Drachma - ₯, Δρχ, Δρ',
+        'GTQ' => 'Guatemalan Quetzal - Q',
+        'GNF' => 'Guinean Franc - FG',
+        'GYD' => 'Guyanaese Dollar - $',
+        'HTG' => 'Haitian Gourde - G',
+        'HNL' => 'Honduran Lempira - L',
+        'HKD' => 'Hong Kong Dollar - $',
+        'HUF' => 'Hungarian Forint - Ft',
+        'ISK' => 'Icelandic KrÃ³na - kr',
+        'INR' => 'Indian Rupee - ₹',
+        'IDR' => 'Indonesian Rupiah - Rp',
+        'IRR' => 'Iranian Rial - ﷼',
+        'IQD' => 'Iraqi Dinar - د.ع',
+        'ILS' => 'Israeli New Sheqel - ₪',
+        'ITL' => 'Italian Lira - L,£',
+        'JMD' => 'Jamaican Dollar - J$',
+        'JPY' => 'Japanese Yen - ¥',
+        'JOD' => 'Jordanian Dinar - ا.د',
+        'KZT' => 'Kazakhstani Tenge - лв',
+        'KES' => 'Kenyan Shilling - KSh',
+        'KWD' => 'Kuwaiti Dinar - ك.د',
+        'KGS' => 'Kyrgystani Som - лв',
+        'LAK' => 'Laotian Kip - ₭',
+        'LVL' => 'Latvian Lats - Ls',
+        'LBP' => 'Lebanese Pound - £',
+        'LSL' => 'Lesotho Loti - L',
+        'LRD' => 'Liberian Dollar - $',
+        'LYD' => 'Libyan Dinar - د.ل',
+        'LTL' => 'Lithuanian Litas - Lt',
+        'MOP' => 'Macanese Pataca - $',
+        'MKD' => 'Macedonian Denar - ден',
+        'MGA' => 'Malagasy Ariary - Ar',
+        'MWK' => 'Malawian Kwacha - MK',
+        'MYR' => 'Malaysian Ringgit - RM',
+        'MVR' => 'Maldivian Rufiyaa - Rf',
+        'MRO' => 'Mauritanian Ouguiya - MRU',
+        'MUR' => 'Mauritian Rupee - ₨',
+        'MXN' => 'Mexican Peso - $',
+        'MDL' => 'Moldovan Leu - L',
+        'MNT' => 'Mongolian Tugrik - ₮',
+        'MAD' => 'Moroccan Dirham - MAD',
+        'MZM' => 'Mozambican Metical - MT',
+        'MMK' => 'Myanmar Kyat - K',
+        'NAD' => 'Namibian Dollar - $',
+        'NPR' => 'Nepalese Rupee - ₨',
+        'ANG' => 'Netherlands Antillean Guilder - ƒ',
+        'TWD' => 'New Taiwan Dollar - $',
+        'NZD' => 'New Zealand Dollar - $',
+        'NIO' => 'Nicaraguan CÃ³rdoba - C$',
+        'NGN' => 'Nigerian Naira - ₦',
+        'KPW' => 'North Korean Won - ₩',
+        'NOK' => 'Norwegian Krone - kr',
+        'OMR' => 'Omani Rial - .ع.ر',
+        'PKR' => 'Pakistani Rupee - ₨',
+        'PAB' => 'Panamanian Balboa - B/.',
+        'PGK' => 'Papua New Guinean Kina - K',
+        'PYG' => 'Paraguayan Guarani - ₲',
+        'PEN' => 'Peruvian Nuevo Sol - S/.',
+        'PHP' => 'Philippine Peso - ₱',
+        'PLN' => 'Polish Zloty - zł',
+        'QAR' => 'Qatari Rial - ق.ر',
+        'RON' => 'Romanian Leu - lei',
+        'RUB' => 'Russian Ruble - ₽',
+        'RWF' => 'Rwandan Franc - FRw',
+        'SVC' => 'Salvadoran ColÃ³n - ₡',
+        'WST' => 'Samoan Tala - SAT',
+        'SAR' => 'Saudi Riyal - ﷼',
+        'RSD' => 'Serbian Dinar - din',
+        'SCR' => 'Seychellois Rupee - SRe',
+        'SLL' => 'Sierra Leonean Leone - Le',
+        'SGD' => 'Singapore Dollar - $',
+        'SKK' => 'Slovak Koruna - Sk',
+        'SBD' => 'Solomon Islands Dollar - Si$',
+        'SOS' => 'Somali Shilling - Sh.so.',
+        'ZAR' => 'South African Rand - R',
+        'KRW' => 'South Korean Won - ₩',
+        'XDR' => 'Special Drawing Rights - SDR',
+        'LKR' => 'Sri Lankan Rupee - Rs',
+        'SHP' => 'St. Helena Pound - £',
+        'SDG' => 'Sudanese Pound - .س.ج',
+        'SRD' => 'Surinamese Dollar - $',
+        'SZL' => 'Swazi Lilangeni - E',
+        'SEK' => 'Swedish Krona - kr',
+        'CHF' => 'Swiss Franc - CHf',
+        'SYP' => 'Syrian Pound - LS',
+        'STD' => 'São Tomé and Príncipe Dobra - Db',
+        'TJS' => 'Tajikistani Somoni - SM',
+        'TZS' => 'Tanzanian Shilling - TSh',
+        'THB' => 'Thai Baht - ฿',
+        'TOP' => 'Tongan pa\'anga - $',
+        'TTD' => 'Trinidad & Tobago Dollar - $',
+        'TND' => 'Tunisian Dinar - ت.د',
+        'TRY' => 'Turkish Lira - ₺',
+        'TMT' => 'Turkmenistani Manat - T',
+        'UGX' => 'Ugandan Shilling - USh',
+        'UAH' => 'Ukrainian Hryvnia - ₴',
+        'AED' => 'United Arab Emirates Dirham - إ.د',
+        'UYU' => 'Uruguayan Peso - $',
+        'USD' => 'US Dollar - $',
+        'UZS' => 'Uzbekistan Som - лв',
+        'VUV' => 'Vanuatu Vatu - VT',
+        'VEF' => 'Venezuelan BolÃvar - Bs',
+        'VND' => 'Vietnamese Dong - ₫',
+        'YER' => 'Yemeni Rial - ﷼',
+        'ZMK' => 'Zambian Kwacha - ZK',
+    ];
+
+    const BASE_CURRENCY = 'USD';
+    const USD_ILS = 4;
+
+    public static function getPrice($basePrice, $currency){
+        $convertRate = self::getConversionRate($currency);
+        return round($basePrice * $convertRate, -1);
+    }
+
+    public static function getConversionRate($currency){
+        if ($currency == self::BASE_CURRENCY) {
+            return 1;
+        }
+
+        return constant('self::USD_' . strtoupper($currency)) ?? 1;
+    }
+
+}

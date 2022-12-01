@@ -1,0 +1,1562 @@
+body {
+    background-color: #030a1c;
+    overflow-x: hidden;
+    position: relative;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.eternitech-lp--sub-heading {
+    padding-top: 115px;
+}
+
+.eternitech-lp--sub-heading h3 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 78px;
+    font-weight: 300;
+    margin-bottom: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.eternitech-lp--sub-heading h3 span {
+    font-weight: 700;
+}
+
+/* Section 1 */
+
+.eternitech-lp--section-1 {
+    background: linear-gradient(
+            0deg,
+            #000228 -12.01%,
+            #122154 -10.92%,
+            #264484 -8.73%,
+            #365fab -6.54%,
+            #4172c6 -5.45%,
+            #487ed7 -4.36%,
+            #4b83dd -3.27%,
+            #4b7fd9 8.76%,
+            #4b74cd 19.69%,
+            #4b61b9 30.61%,
+            #4b479d 42.64%,
+            #4b368a 49.19%,
+            #0c153e 90.72%
+    );
+    padding: 0;
+}
+
+.eternitech-lp--section-1 .eternitech-lp--cloud h3 {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.eternitech-lp--section-1 .cloud-1 {
+    width: 428px;
+    height: 194px;
+    background-image: url('../img/section-1-cloud-1.png');
+    position: absolute;
+    left: 50%;
+    top: 100px;
+}
+
+.eternitech-lp--section-1 .cloud-2 {
+    width: 338px;
+    height: 153px;
+    background-image: url('../img/section-1-cloud-2.png');
+    position: absolute;
+    left: 50%;
+    top: 156px;
+}
+
+.eternitech-lp--section-1 .cloud-3 {
+    width: 329px;
+    height: 130px;
+    background-image: url('../img/section-1-cloud-3.png');
+    position: absolute;
+    left: 50%;
+    top: 175px;
+}
+
+.eternitech-lp--section-1 .cloud-1 h3 {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    line-height: 58px;
+}
+
+.eternitech-lp--section-1 .cloud-2 h3 {
+    position: absolute;
+    left: 50%;
+    top: 52px;
+    transform: translateX(-50%);
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.eternitech-lp--section-1 .cloud-3 h3 {
+    position: absolute;
+    left: 50%;
+    top: 42px;
+    transform: translateX(-70%);
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.eternitech-lp--section-1 .eternitech-lp--inner-div {
+    background-image: url("../img/eternitech-hero-bg.png");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.eternitech-lp--nav {
+    margin-bottom: -62px;
+}
+
+.eternitech-lp--main-heading {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+}
+
+.eternitech-lp--main-heading h2 {
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.eternitech-lp--laptop-logo {
+    width: 85px;
+    height: 80px;
+    position: absolute;
+    bottom: 220px;
+    left: 50%;
+}
+
+.eternitech-lp--laptop-logo img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.eternitech-lp--hero-floating {
+    animation-name: eternitech-hero-floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.eternitech-lp--hero-floating2 {
+    animation-name: eternitech-hero-floating2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.eternitech-lp--hero-floating3 {
+    animation-name: eternitech-hero-floating3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes eternitech-hero-floating {
+    0% {
+        transform: translate(-45%, 0px);
+    }
+    50% {
+        transform: translate(-45%, 15px);
+    }
+    100% {
+        transform: translate(-45%, -0px);
+    }
+}
+
+@keyframes eternitech-hero-floating2 {
+    0% {
+        transform: translate(-200%, 0px);
+    }
+    50% {
+        transform: translate(-200%, -15px);
+    }
+    100% {
+        transform: translate(-200%, -0px);
+    }
+}
+
+@keyframes eternitech-hero-floating3 {
+    0% {
+        transform: translate(120%, 0px);
+    }
+    50% {
+        transform: translate(120%, -15px);
+    }
+    100% {
+        transform: translate(120%, -0px);
+    }
+}
+
+/* Section 2 */
+
+.eternitech-lp--section-2 {
+    background-color: #030a1c;
+    padding: 0;
+}
+
+.eternitech-lp--section-2 .eternitech-lp--inner-div {
+    background-image: url(../img/section-2-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 869px;
+}
+
+.eternitech-lp--paragraph {
+    margin: 32px auto 0;
+    max-width: 950px;
+}
+
+.eternitech-lp--paragraph p,
+.eternitech-lp--stats-container p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.eternitech-lp--stats-container {
+    margin: 0;
+    padding: 0;
+    margin-top: 105px;
+}
+
+.eternitech-lp--stats-container .row div {
+    text-align: center;
+}
+
+.eternitech-lp--stats-container h4 {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 22px;
+}
+
+/* Section 3 */
+
+.eternitech-lp--section-3 {
+    padding: 0;
+    background: linear-gradient(
+            0deg,
+            #073a88 -1.55%,
+            #161936 35.45%,
+            #030a1c 98.45%
+    );
+}
+
+.eternitech-lp--section-3 .eternitech-lp--inner-div {
+    min-height: 2050px;
+    background-image: url(../img/eternitech-section-3-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.eternitech-lp--section-3 .eternitech-lp--paragraph {
+    max-width: 845px;
+    margin: 32px auto 75px;
+}
+
+.eternitech-lp--section-3 .card {
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #1e75bb;
+    border-radius: 50px;
+    -webkit-transition: all linear 0.25s;
+    transition: all linear 0.25s;
+}
+
+.eternitech-lp--section-3 .card:hover {
+    /* box-shadow: 0 0 15px #143b91; */
+    background-color: rgba(39, 168, 224, 0.4);
+    border-color: rgba(39, 168, 224, 0);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+.eternitech-lp--section-3 .card-body {
+    padding: 65px 20px 50px;
+}
+
+.eternitech-lp--section-3 .card-title {
+    margin: 30px 0 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.eternitech-lp--section-3 .card-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.eternitech-lp--section-3 .row .col-sm-4 {
+    margin: 25px 0;
+}
+
+.eternitech-lp--section-3 .section-3--img-div {
+    text-align: center;
+}
+
+.eternitech-lp--section-3 .section-3--img-div .section-3--img-ninja2 {
+    position: absolute;
+    left: 50%;
+    margin-top: 130px;
+    transform: translateX(-50%);
+}
+
+.eternitech-lp--section-3 .section-3--img-div .section-3--img-ninja1 {
+    margin-top: 195px;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 9999;
+}
+
+@media (min-width: 576px) {
+    .eternitech-lp--section-3 .card {
+        max-width: 320px;
+    }
+}
+
+/* Section 4 */
+
+.eternitech-lp--section-4 {
+    padding: 0;
+    background-color: #030a1c;
+}
+
+.eternitech-lp--section-4 .eternitech-lp--inner-div {
+    background-image: url(../img/section-4-bg.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.eternitech-lp--section-4 .eternitech-lp--section-4-heading {
+    font-family: "Permanent Marker", cursive;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 78px;
+}
+
+.eternitech-lp--section-4 .eternitech-lp--container {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.eternitech-lp--section-4 p {
+    font-family: "Permanent Marker", cursive;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 96px;
+    margin: 32px auto 0;
+    max-width: 932px;
+}
+
+.eternitech-lp--section-4 .eternitech-lp--sub-heading {
+    padding-top: 125px;
+}
+
+/* Section 5 */
+
+.eternitech-lp--section-5 {
+    font-family: "Montserrat", sans-serif;
+    background-color: #030a1c;
+    padding: 0;
+}
+
+.eternitech-lp--section-5 img {
+    max-width: 100%;
+}
+
+.eternitech-lp--hw-row1 {
+    padding-top: 60px;
+    background-image: url(../img/section-5-row-1-line.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.eternitech-lp--section-5 .eternitech-lp--hw-row1-col1,
+.eternitech-lp--section-5 .eternitech-lp--hw-row2-col3,
+.eternitech-lp--section-5 .eternitech-lp--hw-row3-col2,
+.eternitech-lp--section-5 .eternitech-lp--hw-row4-col1 {
+    padding-left: 110px;
+}
+.eternitech-lp--section-5 .eternitech-lp--hw-row1-col1 h5,
+.eternitech-lp--section-5 .eternitech-lp--hw-row2-col3 h5,
+.eternitech-lp--section-5 .eternitech-lp--hw-row3-col2 h5,
+.eternitech-lp--section-5 .eternitech-lp--hw-row4-col1 h5 {
+    color: #66d7ff;
+    font-weight: 700;
+    line-height: 78px;
+    font-size: 60px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.eternitech-lp--section-5 .eternitech-lp--hw-row1-col1 p,
+.eternitech-lp--section-5 .eternitech-lp--hw-row2-col3 p,
+.eternitech-lp--section-5 .eternitech-lp--hw-row3-col2 p,
+.eternitech-lp--section-5 .eternitech-lp--hw-row4-col1 p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 300px;
+}
+
+.eternitech-lp--section-5 .eternitech-lp--hw-row1-col2 {
+    text-align: center;
+}
+
+.eternitech-lp--hw-row1-col2 .eternitech-lp--hw-cloud {
+    margin-bottom: 65px;
+}
+
+.eternitech-lp--hw-row1-col2 .eternitech-lp--hw-rocket {
+    margin-bottom: 65px;
+}
+
+.eternitech-lp--hw-row2 {
+    background-image: url(../img/section-5-row-2-line.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.eternitech-lp--hw-row2-col1 .eternitech-lp--hw-ninja2 {
+    margin-top: 50px;
+}
+
+.eternitech-lp--section-5 .eternitech-lp--hw-row2-col2 h5 {
+    color: #66d7ff;
+    font-weight: 700;
+    line-height: 78px;
+    font-size: 60px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.eternitech-lp--section-5 .eternitech-lp--hw-row2-col2 p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 300px;
+}
+
+.eternitech-lp--section-5 .eternitech-lp--hw-row2-col4 {
+    text-align: center;
+}
+
+.eternitech-lp--hw-row2-col4 .eternitech-lp--hw-ninja3 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+.eternitech-lp--hw-row2-col4 .eternitech-lp--hw-leaf1 {
+    position: absolute;
+    left: 35%;
+    bottom: 70%;
+}
+
+.eternitech-lp--hw-row3-col1 .eternitech-lp--hw-leaf2 {
+    position: absolute;
+    left: 0;
+    top: -20%;
+}
+
+.eternitech-lp--hw-row4-col2 .eternitech-lp--hw-leaf3 {
+    position: absolute;
+    left: 0;
+    top: 15%;
+}
+
+[data-aos="eternitech-lp--hw-leaf2"] {
+    transform: translate(0, 0);
+    opacity: 1;
+    transition-property: transform, opacity;
+}
+
+[data-aos="eternitech-lp--hw-leaf2"].aos-animate {
+    transform: translate(300%, 2500%);
+    opacity: 0;
+}
+
+[data-aos="eternitech-lp--hw-leaf1"] {
+    transform: translate(0, 0);
+    opacity: 1;
+    transition-property: transform, opacity;
+}
+
+[data-aos="eternitech-lp--hw-leaf1"].aos-animate {
+    transform: translate(200%, 700%);
+    opacity: 0;
+}
+
+[data-aos="eternitech-lp--hw-leaf3"] {
+    transform: translate(0, 0);
+    opacity: 1;
+    transition-property: transform, opacity;
+}
+
+[data-aos="eternitech-lp--hw-leaf3"].aos-animate {
+    transform: translate(200%, 1500%);
+    opacity: 0;
+}
+
+.eternitech-lp--hw-row3-col1 .eternitech-lp--hw-ninja4 {
+    margin-top: 210px;
+    position: relative;
+    z-index: 9999;
+}
+
+.eternitech-lp--hw-row3-col1 .eternitech-lp--hw-grass1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+.eternitech-lp--hw-row3 {
+    background-image: url(../img/section-5-row-3-line.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.eternitech-lp--hw-row4 {
+    background-image: url(../img/section-5-row-4-line.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.eternitech-lp--section-5 .eternitech-lp--hw-row4-col2 {
+    text-align: center;
+}
+
+.eternitech-lp--hw-row4-col2 .eternitech-lp--hw-ninja5 {
+    position: relative;
+    margin-top: 250px;
+    z-index: 9999;
+}
+
+.eternitech-lp--hw-row4-col2 .eternitech-lp--hw-leaf3 {
+    z-index: 0;
+}
+
+.eternitech-lp--hw-row4-col2 .eternitech-lp--hw-grass2,
+.eternitech-lp--hw-row4-col2 .eternitech-lp--hw-grass3 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    z-index: 999999;
+}
+
+.eternitech-lp--hw-row4-col2 .eternitech-lp--hw-bee {
+    position: absolute;
+    bottom: 65px;
+    right: 0;
+}
+
+.eternitech-lp--float-up {
+    animation-name: eternitech-float-up;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.eternitech-lp--hw-floating {
+    animation-name: eternitech-floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.eternitech-lp--delay {
+    animation-delay: 1.5s;
+}
+
+.eternitech-lp--hw-swaying {
+    animation-name: eternitech-swaying;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.eternitech-lp--grass1-sway,
+.eternitech-lp--grass2-sway,
+.eternitech-lp--grass3-sway {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.eternitech-lp--grass1-sway {
+    animation-name: eternitech-grass1-sway;
+}
+
+.eternitech-lp--grass2-sway {
+    animation-name: eternitech-grass2-sway;
+}
+
+.eternitech-lp--grass3-sway {
+    animation-name: eternitech-grass3-sway;
+}
+
+@keyframes eternitech-swaying {
+    0% {
+        transform: rotate(-0.5deg);
+        transform-origin: right bottom;
+    }
+    50% {
+        transform: rotate(0.5deg);
+        transform-origin: right bottom;
+    }
+    100% {
+        transform: rotate(-0.5deg);
+        transform-origin: right bottom;
+    }
+}
+
+@keyframes eternitech-floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 15px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+@keyframes eternitech-float-up {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, -25px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+@keyframes eternitech-grass1-sway {
+    0% {
+        transform: rotate(-1.5deg);
+        transform-origin: 20% bottom;
+    }
+    50% {
+        transform: rotate(1.5deg);
+        transform-origin: 20% bottom;
+    }
+    100% {
+        transform: rotate(-1.5deg);
+        transform-origin: 20% bottom;
+    }
+}
+
+@keyframes eternitech-grass2-sway {
+    0% {
+        transform: rotate(-0.75deg) translateX(-50%);
+        transform-origin: left bottom;
+    }
+    50% {
+        transform: rotate(0.75deg) translateX(-50%);
+        transform-origin: left bottom;
+    }
+    100% {
+        transform: rotate(-0.75deg) translateX(-50%);
+        transform-origin: left bottom;
+    }
+}
+
+@keyframes eternitech-grass3-sway {
+    0% {
+        transform: rotate(0.75deg) translateX(-50%);
+        transform-origin: left bottom;
+    }
+    50% {
+        transform: rotate(-0.75deg) translateX(-50%);
+        transform-origin: left bottom;
+    }
+    100% {
+        transform: rotate(0.75deg) translateX(-50%);
+        transform-origin: left bottom;
+    }
+}
+
+/* Section 6 */
+
+.eternitech-lp--section-6 {
+    padding: 0;
+    background-color: #03142a;
+}
+
+.eternitech-lp--section-6 .eternitech-lp--container {
+    text-align: center;
+    padding: 130px 0 100px;
+}
+
+.eternitech-lp--section-6 h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 78px;
+    font-size: 60px;
+}
+
+.eternitech-lp--section-6 h3 span {
+    font-weight: 700;
+    text-transform:uppercase;
+}
+
+.eternitech-lp--cta-button {
+    background-color: #27a8e0;
+    padding: 26px 52px;
+    border-radius: 100px;
+    color: #ffffff !important;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+.eternitech-lp--cta-button span {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.eternitech-lp--cta-button:hover {
+    color: #e1e1e1;
+    box-shadow: 0px 5px 10px #113f52;
+}
+
+/* Section 7 */
+
+.eternitech-lp--section-7 {
+    padding: 0;
+    background-color: #030a1c;
+}
+
+.eternitech-lp--section-7 .eternitech-lp--sub-heading {
+    padding-top: 160px;
+}
+
+.eternitech-lp--testimonial-carousel {
+    margin-top: 80px;
+}
+
+.eternitech-lp--testimonial-item img {
+    width: 100px !important;
+}
+
+.eternitech-lp--testimonial-box {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.eternitech-lp--testimonial-item h5.eternitech-lp--testimonial-name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #030a1c;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.eternitech-lp--testimonial-item h6.eternitech-lp--testimonial-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #030a1c;
+    margin-bottom: 15px;
+}
+
+.eternitech-lp--testimonial-rating {
+    font-size: 25px;
+}
+
+.eternitech-lp--testimonial-rating .checked {
+    color: #e0bf03;
+}
+
+.eternitech-lp--testimonial-item p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #030a1c;
+    margin-top: 30px;
+}
+
+.eternitech-lp--testimonial-item {
+    padding: 20px;
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 50px;
+}
+
+.owl-item.active.center .eternitech-lp--testimonial-item {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+
+.owl-dots {
+    text-align: center;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.owl-dots button.owl-dot {
+    border-radius: 50px;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background: #ffffff;
+    margin-left: 6px;
+    margin-right: 6px;
+    transition: all 250ms ease-out 0s;
+}
+
+.owl-dots button.owl-dot.active,
+.owl-dots button.owl-dot:hover {
+    background-color: #27a8e0;
+    transform: scale(1.5);
+}
+
+/* Section 8 */
+
+.eternitech-lp--section-8 {
+    padding: 0;
+    background-color: #030a1c;
+}
+
+.eternitech-lp--section-8 .eternitech-lp--container {
+    padding-top: 150px;
+}
+
+.eternitech-lp--section-8 p.eternitech-lp--heading {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 96px;
+    margin: 0 auto 100px;
+    max-width: 710px;
+}
+
+.eternitech-lp--section-8 .eternitech-lp--portfolio .col-md-4 {
+    padding: 20px 30px;
+}
+
+.eternitech-lp--section-8 .eternitech-lp--portfolio .card {
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+.eternitech-lp--section-8 .eternitech-lp--portfolio .card .card-body {
+    padding: 35px;
+}
+
+.eternitech-lp--portfolio .card .card-img-wrap {
+    min-height: 150px;
+    position: relative;
+}
+
+.eternitech-lp--portfolio .card .card-img-wrap img {
+    max-width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.eternitech-lp--portfolio .eternitech-lp--portfolio-title {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.eternitech-lp--portfolio .eternitech-lp--portfolio-skill p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.eternitech-lp--portfolio .eternitech-lp--portfolio-skill span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    background-color: #e5e6e6;
+    padding: 5px 22px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.eternitech-lp--section-8 .eternitech-lp--portfolio-buttons {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.eternitech-lp--section-8 .eternitech-lp--portfolio-buttons a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff !important;
+    margin: 0 20px;
+}
+
+.eternitech-lp--section-8 .eternitech-lp--portfolio-buttons a:hover {
+    color: #e1e1e1;
+}
+
+.eternitech-lp--section-8 .eternitech-lp--portfolio-buttons a span {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.eternitech-lp--portfolio-buttons .eternitech-lp--portfolio-btn-1 {
+    padding: 26px 52px;
+    background-color: #27a8e0;
+    border-radius: 100px;
+    transition: all 0.3s ease 0s;
+    text-transform:uppercase;
+}
+
+.eternitech-lp--portfolio-buttons .eternitech-lp--portfolio-btn-1:hover {
+    box-shadow: 0px 5px 10px #113f52;
+}
+
+.eternitech-lp--portfolio-buttons .eternitech-lp--portfolio-btn-2 {
+    padding: 26px 52px;
+    border: 3px solid #1e75bb;
+    border-radius: 100px;
+}
+
+.eternitech-lp--end-cta {
+    text-align: center;
+    padding-bottom: 220px;
+}
+
+.eternitech-lp--end-cta p {
+    margin-bottom: 0;
+    margin-top: 250px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 96px;
+    color: #ffffff !important;
+    text-transform: capitalize;
+}
+
+.eternitech-lp--end-cta-btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+    color: #ffffff !important;
+    padding: 26px 52px !important;
+    background-color: #27a8e0;
+    border-radius: 100px !important;
+    text-transform: uppercase;
+    margin-top: 50px;
+    transition: all 0.3s ease 0s !important;
+}
+
+.eternitech-lp--end-cta-btn:hover {
+    color: #e1e1e1;
+    box-shadow: 0px 5px 10px #113f52;
+}
+
+.eternitech-lp--end-cta-btn span {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+/* Footer */
+
+.eternitech-lp--footer {
+    padding: 0;
+    background-color: #030a1c;
+    min-height: 850px;
+    background-image: url(../img/eternitech-footer-bg.png);
+    background-size: cover;
+    background-position: top center;
+}
+
+.eternitech-lp--footer hr {
+    margin: 0;
+    border-top: 2px solid rgba(217, 217, 217, 0.5);
+    margin-bottom: 120px;
+}
+
+.eternitech-lp--footer .eternitech-lp--inner-div {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 850px;
+}
+
+.eternitech-lp--footer .eternitech-lp--footer-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+}
+
+.eternitech-lp--footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.eternitech-lp--footer-links ul li {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    border-bottom: 2px solid rgba(217, 217, 217, 0.5);
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.eternitech-lp--footer a {
+    color: #ffffff !important;
+}
+
+.eternitech-lp--footer a:hover {
+    text-decoration: none;
+    color: #e1e1e1;
+}
+
+.eternitech-lp--footer-links ul li:first-child {
+    padding-top: 0;
+}
+
+.eternitech-lp--footer-links ul li:last-child {
+    border-bottom: none;
+}
+
+.eternitech-lp--footer .eternitech-lp--footer-contact p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.eternitech-lp--footer .eternitech-lp--footer-follow p {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.eternitech-lp--footer .eternitech-lp--footer-follow img {
+    margin: 0 4px;
+}
+
+.eternitech-lp--footer-copyright {
+    text-align: center;
+}
+
+.eternitech-lp--footer-copyright p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.eternitech-lp--footer-copyright img {
+    width: 130px;
+    margin: 5px auto;
+}
+
+.eternitech-lp--footer .eternitech-lp--inner-div {
+    position: relative;
+}
+
+.eternitech-lp--footer .eternitech-lp--footer-copyright {
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (min-width: 1200px) {
+    .eternitech-lp--container {
+        max-width: 1210px;
+    }
+
+    .eternitech-lp--section-5 .eternitech-lp--container,
+    .eternitech-lp--section-7 .eternitech-lp--container,
+    .eternitech-lp--footer .eternitech-lp--container {
+        max-width: 1500px;
+    }
+}
+
+@media (max-width: 576px) {
+    .eternitech-lp--main-heading {
+        padding-top: 350px !important;
+    }
+
+    .eternitech-lp--nav .eternitech-lp--container {
+        justify-content: center;
+    }
+
+    .eternitech-lp--nav .eternitech-lp--container .navbar-brand {
+        margin-right: 0;
+    }
+
+    .eternitech-lp--section-1 .cloud-1 {
+        width: 90%;
+        height: 180px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .eternitech-lp--section-1 .cloud-1 h3 {
+        top: 70px;
+    }
+
+    @keyframes eternitech-hero-floating {
+        0% {
+            transform: translate(-50%, 0px);
+        }
+        50% {
+            transform: translate(-50%, 15px);
+        }
+        100% {
+            transform: translate(-50%, -0px);
+        }
+    }
+
+    .eternitech-lp--hw-row1,
+    .eternitech-lp--hw-row2,
+    .eternitech-lp--hw-row3,
+    .eternitech-lp--hw-row4 {
+        background-image: none;
+    }
+
+    .eternitech-lp--section-5 h5 {
+        font-size: 50px !important;
+        line-height: 68px !important;
+        margin-bottom: 0 !important;
+        text-align: center;
+    }
+
+    .eternitech-lp--section-5 .eternitech-lp--hw-row2-col3 h5 {
+        margin-top: 50px;
+    }
+
+    .eternitech-lp--section-5 .eternitech-lp--hw-row1-col1,
+    .eternitech-lp--section-5 .eternitech-lp--hw-row2-col3,
+    .eternitech-lp--section-5 .eternitech-lp--hw-row3-col2,
+    .eternitech-lp--section-5 .eternitech-lp--hw-row4-col1 {
+        padding-left: 15px;
+    }
+
+    .eternitech-lp--hw-row2-col1 .eternitech-lp--hw-ninja2,
+    .eternitech-lp--hw-row1-col2 .eternitech-lp--hw-cloud {
+        margin-top: 25px;
+    }
+
+    .eternitech-lp--section-5 p {
+        margin: 0 auto 1rem;
+        text-align: center;
+    }
+
+    .eternitech-lp--hw-row1-col2 .eternitech-lp--hw-cloud {
+        margin-bottom: 25px;
+    }
+
+    .eternitech-lp--section-5 .eternitech-lp--hw-row2-col1,
+    .eternitech-lp--section-5 .eternitech-lp--hw-row3-col1 {
+        text-align: center;
+    }
+
+    .eternitech-lp--section-5 .eternitech-lp--hw-row1-col2 img,
+    .eternitech-lp--section-5 .eternitech-lp--hw-row2-col1 img {
+        width: 65%;
+    }
+
+    .eternitech-lp--hw-swaying,
+    .eternitech-lp--hw-row2-col4 .eternitech-lp--hw-ninja3 {
+        width: 80%;
+    }
+
+    .eternitech-lp--section-5 .eternitech-lp--hw-row3-col2 h5,
+    .eternitech-lp--section-5 .eternitech-lp--hw-row4-col1 h5 {
+        margin-top: 50px;
+    }
+
+    .eternitech-lp--hw-row3-col1 .eternitech-lp--hw-ninja4 {
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .eternitech-lp--hw-row3-col1 .eternitech-lp--hw-grass1 {
+        width: 80%;
+        left: 10%;
+    }
+
+    .eternitech-lp--hw-row4-col2 .eternitech-lp--hw-grass2,
+    .eternitech-lp--hw-row4-col2 .eternitech-lp--hw-grass3 {
+        width: 65%;
+    }
+
+    .eternitech-lp--hw-row4-col2 .eternitech-lp--hw-ninja5 {
+        margin-top: 20px;
+        width: 65%;
+    }
+
+    .eternitech-lp--hw-row4-col2 .eternitech-lp--hw-bee {
+        width: 30px;
+        right: 10%;
+    }
+
+    .eternitech-lp--hw-row2-col4 .eternitech-lp--hw-leaf1 {
+        width: 30px;
+    }
+
+    [data-aos="eternitech-lp--hw-leaf1"].aos-animate {
+        transform: translate(200%, 500%);
+        opacity: 0;
+    }
+
+    .eternitech-lp--hw-row3-col1 .eternitech-lp--hw-leaf2 {
+        width: 30px;
+    }
+
+    [data-aos="eternitech-lp--hw-leaf2"].aos-animate {
+        transform: translate(400%, 2500%);
+        opacity: 0;
+    }
+
+    .eternitech-lp--hw-row4-col2 .eternitech-lp--hw-leaf3 {
+        width: 43px;
+    }
+
+    [data-aos="eternitech-lp--hw-leaf3"] {
+        transform: translate(200%, 0);
+        opacity: 1;
+        transition-property: transform, opacity;
+    }
+
+    [data-aos="eternitech-lp--hw-leaf3"].aos-animate {
+        transform: translate(400%, 1100%);
+        opacity: 0;
+    }
+
+    .eternitech-lp--section-3 .section-3--img-div .section-3--img-ninja1 {
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .eternitech-lp--section-3 .section-3--img-div .section-3--img-ninja2 {
+        display: none;
+    }
+
+    .eternitech-lp--section-3 .row .col-sm-4 {
+        margin: 25px;
+    }
+
+    .eternitech-lp--footer hr {
+        margin-bottom: 50px;
+    }
+
+    .eternitech-lp--footer .eternitech-lp--footer-heading {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .eternitech-lp--footer-links ul {
+        margin-bottom: 0;
+    }
+
+    .eternitech-lp--footer-links ul li {
+        padding: 10px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .eternitech-lp--footer-links ul li:first-child {
+        padding-top: 10px;
+    }
+
+    .eternitech-lp--footer-links ul li:last-child {
+        border-bottom: 2px solid rgba(217, 217, 217, 0.5);
+    }
+
+    .eternitech-lp--footer .eternitech-lp--footer-contact p {
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .eternitech-lp--footer .eternitech-lp--footer-copyright {
+        width: 100%;
+        bottom: 10px;
+    }
+
+    .eternitech-lp--footer .eternitech-lp--footer-contact {
+        margin-bottom: 100px;
+    }
+
+    .eternitech-lp--footer-copyright p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    @keyframes eternitech-grass1-sway {
+        0% {
+            transform: rotate(-1.5deg);
+            transform-origin: 20% bottom;
+        }
+        50% {
+            transform: rotate(1.5deg);
+            transform-origin: 20% bottom;
+        }
+        100% {
+            transform: rotate(-1.5deg);
+            transform-origin: 20% bottom;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .eternitech-lp--section-1 .eternitech-lp--inner-div {
+        min-height: 1000px;
+    }
+
+    .eternitech-lp--main-heading {
+        padding-top: 400px;
+    }
+
+    .eternitech-lp--section-2 .eternitech-lp--inner-div {
+        background-size: cover;
+    }
+
+    .eternitech-lp--sub-heading h3 {
+        font-size: 50px;
+        line-height: 68px;
+    }
+
+    .eternitech-lp--laptop-logo {
+        bottom: 205px;
+    }
+
+    .eternitech-lp--stats-container {
+        margin-top: 50px;
+    }
+
+    .eternitech-lp--paragraph p,
+    .eternitech-lp--stats-container p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .eternitech-lp--stats-container h4 {
+        margin-top: 15px;
+        margin-bottom: 11px;
+    }
+
+    .eternitech-lp--stats-container .col-sm-3 {
+        margin-bottom: 20px;
+    }
+
+    .eternitech-lp--section-3 .card-body {
+        padding: 25px;
+    }
+
+    .eternitech-lp--section-4 .eternitech-lp--section-4-heading {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .eternitech-lp--section-4 p {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .eternitech-lp--section-8 .eternitech-lp--portfolio .col-sm-4 {
+        padding: 25px 50px;
+    }
+
+    .eternitech-lp--section-6 h3 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .eternitech-lp--testimonial-item p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .eternitech-lp--testimonial-item h6.eternitech-lp--testimonial-title {
+        margin-bottom: 0;
+    }
+
+    .eternitech-lp--testimonial-item p {
+        margin-top: 0;
+    }
+
+    .eternitech-lp--section-8 p.eternitech-lp--heading {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .eternitech-lp--cta-button span,
+    .eternitech-lp--section-8 .eternitech-lp--portfolio-buttons a span,
+    .eternitech-lp--end-cta-btn span {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    .eternitech-lp--section-8 .eternitech-lp--portfolio-buttons a,
+    .eternitech-lp--cta-button,
+    .eternitech-lp--end-cta-btn {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .eternitech-lp--portfolio-buttons .eternitech-lp--portfolio-btn-1,
+    .eternitech-lp--portfolio-buttons .eternitech-lp--portfolio-btn-2,
+    .eternitech-lp--cta-button,
+    .eternitech-lp--end-cta-btn {
+        padding: 16px 32px;
+    }
+
+    .eternitech-lp--section-8 .eternitech-lp--portfolio-buttons a {
+        margin: 0 0 20px 0;
+    }
+
+    .eternitech-lp--section-8 .eternitech-lp--portfolio-buttons {
+        margin-top: 50px;
+    }
+
+    .eternitech-lp--end-cta p {
+        font-size: 40px;
+        line-height: 60px;
+        margin-top: 100px;
+    }
+
+    .eternitech-lp--end-cta {
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .eternitech-lp--section-1 .eternitech-lp--inner-div {
+        min-height: 1068px;
+    }
+
+    .eternitech-lp--main-heading h2 {
+        font-size: 54px;
+        line-height: 70px;
+    }
+
+    .eternitech-lp--main-heading {
+        padding-top: 375px;
+    }
+
+    .eternitech-lp--section-5 .eternitech-lp--container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .eternitech-lp--section-2 .eternitech-lp--inner-div {
+        background-size: contain;
+    }
+}
+
+@media (min-width: 1600px) {
+    .eternitech-lp--section-1 .eternitech-lp--inner-div {
+        min-height: 1360px;
+    }
+
+    .eternitech-lp--laptop-logo {
+        bottom: 290px;
+        width: 110px;
+    }
+
+    .eternitech-lp--main-heading h2 {
+        font-size: 65px;
+        line-height: 84px;
+    }
+
+    .eternitech-lp--main-heading {
+        padding-top: 400px;
+    }
+    .eternitech-lp--section-2 .eternitech-lp--inner-div {
+        background-size: contain;
+    }
+}

@@ -1,0 +1,919 @@
+.developer {
+    margin-top: 50px;
+}
+
+.card {
+    position: relative !important;
+}
+
+.right_intme {
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    height: auto !important;
+}
+
+.corner_button {
+    position: absolute;
+    right: 8px;
+    bottom: -109px;
+    width: 100%;
+    max-width: 15%;
+}
+
+.title-heading-left {
+    width: 100%;
+    max-width: 50%;
+    line-height: 60px !important;
+}
+.title-heading-left span {
+    color: #ffffff;
+}
+.fusion-mobile-menu-icons {
+    display: none !important;
+}
+
+
+.fusion-header-wrapper .fusion-row {
+    max-width: 1100px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.fusion-main-menu .fusion-widget-cart-counter > a:before, .fusion-main-menu > ul > li > a {
+    color: #4d4d4d;
+}
+
+.fusion-main-menu > ul > li > a {
+    height: 99px;
+    line-height: 99px;
+}
+
+.fusion-main-menu > ul > li > a, .side-nav li a {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+.fusion-main-menu > ul > li > a, .side-nav li a {
+    font-size: 15px !Important;
+}
+
+.fusion-main-menu > ul > li > a {
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#main .post h2 a, #main .product .product_title, .about-author .title a, .fusion-content-widget-area .widget .recentcomments, .fusion-content-widget-area .widget li a, .fusion-content-widget-area .widget_categories li, .fusion-load-more-button, .fusion-rollover a, .fusion-woo-featured-products-slider .price .amount, .project-content .project-info .project-info-box a, .shop_attributes tr th, .shop_table.order_details tr th, .single-navigation a[rel="next"]:after, .single-navigation a[rel="prev"]:before, .widget_layered_nav li.chosen a, .widget_layered_nav li.chosen a:before, .widget_layered_nav_filters li.chosen a, .widget_layered_nav_filters li.chosen a:before, body a, body a:after, body a:before {
+    color: #1784d5;
+}
+
+.fusion-header.fusion-sticky-shadow {
+    height: 99px;
+    overflow: visible;
+    top: 32px;
+}
+
+.fusion-header {
+    padding-left: 30px;
+    padding-right: 30px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: background-color .25s ease-in-out;
+    height: 99px;
+    overflow: visible;
+}
+
+.fusion-header-wrapper {
+    position: relative;
+    z-index: 10010;
+}
+
+.fusion-hire-row.fusion-row-hire {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.techskill_hiredev, .search_area, .country_hiredev {
+    width: 30% !important;
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+}
+
+form#filter {
+    align-items: center !important;
+    display: flex;
+}
+
+.submit_filter {
+    float: right !important;
+    text-align: right;
+}
+
+.submit_filter a {
+    color: #ffffff;
+    background: #497fba;
+    padding: 10px 50px;
+    margin: 0 !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    vertical-align: middle !important;
+    width: 100% !important;
+    top: 12px !important;
+    position: relative;
+}
+
+.descmoretext {
+    height: 50px;
+    display: block;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.single_hire h2.title-heading-left {
+    margin-right: 15px !important;
+
+}
+
+.fusion-main-menu > ul > li {
+    padding-right: 30px !important;
+}
+
+.fusion-mobile-menu-design-modern .fusion-header > .fusion-row {
+    position: relative;
+}
+
+.fusion-header .fusion-row {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.fusion-row {
+    margin: 0 auto;
+    zoom: 1;
+}
+
+.fusion-row:after, .fusion-row:before {
+    content: " ";
+    display: table;
+}
+
+.fusion-row:after {
+    clear: both;
+}
+
+#side-header .fusion-logo, .fusion-header .fusion-logo {
+    margin-top: 24px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+}
+
+.fusion-logo {
+    display: block;
+    float: left;
+    max-width: 100%;
+    zoom: 1;
+}
+
+.background_letter .fusion-column-content p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.fusion-logo a {
+    display: block;
+    max-width: 100%;
+}
+
+.rll-youtube-player .play {
+    height: 72px;
+    width: 72px;
+    left: 50%;
+    top: 32%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    background: url(https://eternitech.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat;
+    cursor: pointer;
+}
+
+.fusion-logo img {
+    width: 250px !important;
+    height: auto !important;
+    vertical-align: top;
+}
+
+.fusion-footer-copyright-area .fusion-row .fusion-copyright-content {
+    max-width: 1100px !important;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card .fusion-row h5.mb-4.text-center {
+    font-size: 16px;
+    color: #4d4d4d;
+    line-height: 25px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.box_design .card .card-body p {
+    line-height: 25px;
+}
+
+.page-id-3487 .fusion-builder-row h3.tex-center {
+    color: #4d4d4d;
+    font-size: 19px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+input[type="text"], select, textarea {
+    color: #aaa9a9 !important;
+    font-size: 19px !important;
+    border-color: #000000 !important;
+    border: 1px solid;
+}
+
+@media (max-width: 800px) {
+    div#sliders-container-new1 {
+        width: 100%;
+    }
+
+    #slidingbar-area .columns .col, .avada-container .columns .col, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-6, .footer-area .fusion-columns .fusion-column, .fusion-columns-5 .col-lg-2, .fusion-columns-5 .col-md-2, .fusion-columns-5 .col-sm-2 {
+        float: none;
+        width: 100% !important;
+    }
+
+}
+.techskill_hiredev .select2-container--default .select2-selection--single, .country_hiredev  .select2-container--default .select2-selection--single, #quicksearch{
+    border: 1px solid #999 !important;
+    border-radius: 3px;
+    height: 30px !important;
+}
+
+@media (max-width: 575px) {
+    .single_hire .flag_top_single {
+        margin-top: 30px !important;
+        width: 100%;
+    }
+
+    .single_hire .flag_top_single a {
+        position: absolute !important;
+        top: 50% !important;
+        left: 20px !important;
+        transform: translatey(-12%);
+    }
+}
+
+@media (max-width: 768px) {
+    /*.flag-top {*/
+    /*    top: 40px !important;*/
+    /*}*/
+
+    p.addReadMore.showlesscontent {
+        margin-top: 50px;
+    }
+
+    .submit_filter {
+        float: none !Important;
+        text-align: left;
+        padding-left: 10px !important;
+    }
+
+    .techskill_hiredev, .search_area, .country_hiredev {
+        width: 100% !important;
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+
+    form#filter {
+        display: block;
+    }
+
+    .submit_filter {
+        margin: 20px 0px;
+    }
+
+    .custom_footer .fusion_builder_column_1_2.fusion-one-half {
+        width: 100% !important;
+    }
+
+    .custom_footer .fusion-title.title.fusion-sep-none.fusion-title-center.fusion-title-size-three.fusion-border-below-title {
+        padding: 30px;
+    }
+
+    .custom_footer .fusion-column-content {
+        padding: 30px;
+    }
+
+    div#sliders-container-new {
+        height: 400px;
+    }
+
+    .box_design .card-body .left_img {
+        width: 30% !important;
+    }
+
+    .box_design .card-body a.multi_skills {
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+        line-height: 25px;
+    }
+}
+
+.banner-img {
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(https://res.cloudinary.com/eternitech/images/v1619436965/eternitech/1_72566bbe5/1_72566bbe5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fusion-fullwidth.fullwidth-box.divcontain.nonhundred-percent-fullwidth.fusion-equal-height-columns {
+    padding-bottom: 2%;
+}
+
+.fusion-layout-column.fusion_builder_column.fusion_builder_column_1_2.fusion-one-half.fusion-column-first.intrestedguru.contactblue.divcontain.\31 _2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 48%;
+    margin-right: 4%;
+}
+
+#main .fusion-row {
+    max-width: 100%;
+}
+
+.techskill_hiredev label, .country_hiredev label, .search_area label {
+    color: #4d4d4d;
+    font-weight: 600;
+    margin-bottom: 5px;
+    letter-spacing: .2px;
+    font-size: 18px;
+}
+
+.flexslider .slides li {
+    display: block !important;
+    -webkit-backface-visibility: visible !important;
+}
+
+.country_hiredev .form-control {
+    width: 100%;
+}
+
+.techskill_hiredev select, .freetext_hiredev input, .country_hiredev select {
+    width: 100%;
+}
+
+.port-css-all2 div article div .fusion-portfolio-content {
+    position: unset;
+}
+
+/*30032021*/
+
+p.text_between {
+    border-left: 1px solid #cecece;
+    margin-left: 16px;
+}
+
+#main .fullwidth-box .fusion-row {
+    display: flex;
+}
+
+.box_design {
+    cursor: pointer;
+}
+
+.fusion-main-menu .fusion-dropdown-menu:hover {
+    overflow: visible;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered, ::placeholder {
+    color: #a2a1a1 !important;
+    line-height: 40px !important;
+    font-size: 16px !important;
+}
+
+.youtube_video {
+    order: 1;
+}
+
+.fusion-builder-row.fusion-row.image_desing {
+    order: 2 !important;
+}
+
+p.splezition {
+    display: none;
+}
+
+.full_btn_blue {
+    margin: 10px 0 !important;
+    order: 5;
+}
+
+.full_btn_orange {
+    margin: 10px 0 !important;
+    order: 4;
+}
+
+.youtube_video {
+    order: 1;
+}
+
+.sidebar_single {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-btween {
+    order: 3;
+    font-size: 16px;
+    font-weight: 900;
+    color: #325984;
+}
+
+/*02042021*/
+@media (min-width: 992px) {
+    .col-md-3.flag-top {
+        margin-top: -15px !important;
+    }
+}
+
+.card-body p:empty::before {
+    content: "";
+    display: none !important;
+}
+
+@media (max-width: 767px) {
+
+    .banner_bottom_counter .col-md-4 {
+    margin-bottom: 80px;
+}
+
+    .banner_bottom {
+        margin-top: 93px;
+    }
+
+    .title-heading-left {
+        max-width: 100% !important;
+    }
+
+    .slides .slide-content-container.slide-content-left {
+        padding-left: 30px !important;
+    }
+
+    .become_ninja {
+        font-size: 19px !important;
+    }
+
+    .corner_button {
+        bottom: -257px !important;
+        max-width: 60% !important;
+    }
+
+    .fusion-mobile-menu-icons {
+    display: block !important;
+    text-align: right;
+}
+
+
+    .container1 {
+        padding: 0 15px;
+    }
+
+    .single_hire .flag_top_single a {
+        display: inline-block !important;
+        position: absolute !important;
+        margin: 0 auto !important;
+        top: -20px !important;
+        left: 0 !important;
+    }
+
+    .single_hire a.multi_skills {
+        font-size: 12px !important;
+    }
+
+    .single_hire .flag_top_single {
+        width: 100% !important;
+        margin: 30px 0 !important;
+        padding: 0 15px !important;
+    }
+
+    div#sliders-container-new {
+        height: 400px;
+        width: 100%;
+    }
+
+    #main .fullwidth-box .fusion-row {
+        display: block;
+    }
+}
+
+/*New Css*/
+
+img.fusion-sticky-logo {
+    display: none;
+}
+
+.fusion-main-menu .sub-menu {
+    display: none !important;
+}
+
+.menu-item-2974:hover ul.sub-menu {
+    display: block !important;
+    position: absolute;
+}
+
+.fusion-overlay-search {
+    display: none !important;
+}
+
+ul#menu-main-menu {
+    display: block;
+    text-align: right;
+}
+
+.fusion-menu li a {
+    line-height: 58px !important;
+}
+
+.fusion-main-menu > ul > li {
+    padding-right: 25px !important;
+    display: inline;
+}
+
+.slides .slide-content-container.slide-content-left {
+    width: 100% !important;
+    padding-left: 67px;
+}
+
+.slide-content {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.slide-content-container.slide-content-left {
+    position: absolute;
+    top: 25%;
+}
+
+.slides .background.background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fusion-woocommerce-quick-view-container.quick-view.woocommerce {
+    display: none;
+}
+
+.fusion-hire-row .tex-center {
+    font-size: 19px !important;
+}
+
+.box_design {
+    width: 50%;
+    padding-right: 15px;
+}
+
+.card {
+    width: 100% !important;
+}
+
+.card-body h5 {
+    padding-left: 16px !important;
+}
+
+.card .fusion-hire-row.fusion-row-hire {
+    justify-content: space-between !important;
+}
+
+.image_desing {
+    justify-content: unset !important;
+}
+
+.flag-top {
+    padding-right: 8px;
+}
+
+.col-md-12.skills {
+    max-width: 200px !important;
+}
+
+.spcl_tech {
+    padding-right: 19px !important;
+}
+
+.become-ninja {
+    display: flex;
+    justify-content: center;
+    padding: 17px 40px;
+}
+
+.intrestedguru h3.white_text {
+    display: flex;
+    justify-content: center;
+}
+
+.contactblue .fusion-column-content {
+    padding-top: 30px !important;
+}
+
+.intrestedguru .fusion-column-content-centered {
+    min-height: 360.578px !important;
+}
+
+/*Mobile View*/
+
+@media only screen and (max-width: 767px) {
+    .fusion-slider-container .background.background-image {
+        background-size: contain;
+        background-repeat: no-repeat;
+        max-height: 308px;
+    }
+
+    div#sliders-container-new {
+        height: 308px;
+    }
+
+    .fusion-row-hire section .fusion-hire-row {
+        justify-content: center;
+    }
+
+    /*.box_design .card-body h5.mb-4.text-center {*/
+    /*    padding-left: 10px !important;*/
+    /*}*/
+
+    .country_hiredev label {
+        margin-right: 4px;
+    }
+
+    .card .card-body .col-md-9 {
+        margin-right: 0 !important;
+    }
+
+    .single_hire .fusion-row .sidebar_single {
+        width: 100% !important;
+    }
+
+    .single_hire .fusion-row .col-md-8 {
+        width: 100% !important;
+    }
+
+    .other_title {
+        margin-left: 0px !important;
+    }
+}
+
+.page_title .title {
+    width: 100% !important;
+}
+
+/*Single Page Css*/
+
+.page_title.row {
+    display: flex !important;
+}
+
+.single_hire .fusion-title.title.fusion-sep-none {
+    width: 59%;
+}
+
+.single_hire .flag_top_single {
+    width: 41%;
+    position: relative;
+    padding-right: 15px;
+}
+
+.single_hire .fusion-column-content p {
+    margin-top: 0px;
+    text-align: left !important;
+    padding-top: 11px;
+}
+
+.single_hire .fusion-row .col-md-8 {
+    width: 57%;
+}
+
+.single_hire .fusion-row .sidebar_single {
+    width: 35%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+input#cvlname, input#cvfname, .wpcf7 input[type="email"] {
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    padding: 17px 40px;
+    border: none;
+    border-radius: 0px;
+}
+
+
+
+.col-md-3.flag-top {
+    position: relative;
+}
+
+.other_title {
+    margin-left: 341px;
+}
+/*
+#sliders-container-new .slide-content-container.slide-content-left {
+    padding-top: 150px;
+}*/
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    height: 30px !important;
+    display: flex !important;
+    align-items: center !important;
+    font-size: 16px !important;
+    line-height: 26px !important;
+}
+
+.freetext_hiredev input::placeholder {
+    font-size: 16px !important;
+    line-height: 26px !important;
+}
+
+.submit_filter input.form_submit {
+    padding: 5px 20px 5px !important;
+    font-size: 16px !important;
+}
+
+.card-body h5 {
+    padding-left: 0px !important;
+}
+
+.skills .multi_skills {
+    width: 100%;
+    text-align: center;
+}
+
+.multi_skills {
+    padding: 5px 0px !important;
+}
+
+.skills .col-md-6 {
+    padding: 0 5px 0 0;
+}
+
+.right_intme {
+    text-align: right !important;
+}
+
+.right_intme a {
+    padding: 10px;
+}
+
+.right_intme {
+    padding: 0;
+    text-align: right;
+    margin-top: 50px;
+    height: 100%;
+}
+
+@media (min-width: 1200px){
+
+    .hire-devps .container {
+    width: 1100px !important;
+}
+
+}
+
+
+a.become_ninja {
+    display: block !important;
+    position: relative;
+    max-width: 261px;
+    color: #ffffff;
+    background: #497fba;
+    padding: 8px 15px;
+    margin: 0 !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 22px;
+    border: 2px solid #fff !important;
+}
+
+.align_center.features_text {
+    text-align: center;
+    margin: 0px 0 20px 0px;
+}
+
+.dev_icon_class i {
+    font-size: 60px;
+    margin-bottom: 35px;
+    color: #0d567f;
+}
+
+span.inline_it .fa {
+    color: #0168b4;
+    margin: 0 15px;
+}
+h1.heading_title {
+    color: #497fba;
+    text-align: center;
+    margin-top: 45px;
+    line-height:1.2;
+}
+
+.box_design:nth-child(2n) {
+    padding-left: 15px !important;
+}
+.box_design:nth-child(2n+1) {
+    padding-right: 15px !important;
+}
+
+@media(min-width:768px){
+    .banner_bottom hr {
+    margin: 0 55px;
+}
+}
+
+.contactgrey h3.white_text:nth-child(3), .contactgrey h3.white_text:nth-child(4) {
+    display: none;
+}
+span.title_img img {
+    width: 35px;
+}
+
+@media (min-width: 768px){
+.col-md-3.flag-top {
+    margin-top: -61px !important;
+}
+    .col-md-3.flag-top span {
+    right: 100px !Important;
+    border-bottom: 0px solid #000000 !IMportant;
+    color: #fff;
+}
+}
+
+.align_center.features_text .count {
+    font-size: 40px;
+    color: #497fba;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.align_center.features_text h3 {
+    font-size: 20px;
+    line-height: 1.15;
+    font-weight: 400;
+    color: #000;
+}
+.col-md-4.mid {
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    border-top: 0;
+}
+.row.banner_bottom_counter {
+    margin-top: 40px;
+}
+
+
+.box_design .card-body h3.card-title.text-center {
+
+    padding: 20px 20px 20px 10px !important;
+}
+
+span.title_img {
+    background: url('https://eternitech.com/hire-developers/warrior-shield.png');
+
+    background-size: contain !IMPORTANT;
+    width: 65px !IMPORTANT;
+    display: block;
+    height: 67px;
+    background-repeat: no-repeat;
+    padding: 15px;
+    float: left;
+    margin-top: -19px;
+    text-align: center;
+}
+.fusion-hire-row.fusion-row-hire .col-md-9 {
+    padding-left: 8px;
+}
+.spcl_tech {
+    padding: 0 10px;
+}
+
+@media(max-width:767px){
+    .container {
+    width: 100% !Important;
+}
+
+.slide-content-container.slide-content-left {
+    position: absolute;
+    top: 10%;
+}
+.box_design:nth-child(2n) {
+    padding-left: 0px !important;
+}
+.box_design:nth-child(2n+1) {
+    padding-right: 0px !important;
+}
+}

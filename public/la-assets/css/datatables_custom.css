@@ -1,0 +1,48 @@
+.cards{width: 100% !important}
+.cards tbody tr {float: left;width: 32%;margin: 0.5rem;border: 0.0625rem solid rgba(0, 0, 0, .125);border-radius: .25rem;box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.25);/*min-height: 440px;*/}
+.cards tbody td {display: block;min-height: 22px;}
+.cards thead tr{display: none;}
+.cards thead tr.select_all{display: block;}
+.cards td:before {content: attr(data-label);position: relative;float: left;color: #808080;min-width: 4rem;margin-left: 0;margin-right: 1rem;text-align: left;font-size: 14px;font-weight: bold;}
+/*.cards tbody tr td:nth-child(1) label.form-check-label{float: right;}*/
+.cards tbody tr{position: relative;}
+.cards tbody tr td[data-label="Name"] a{overflow-x: hidden;display: block;word-break: break-all;}
+.cards tbody tr td.card-align-right{text-align: right;} 
+.cards tbody tr td[data-action="Action"]{text-align: right;position: absolute;top: 0 ;right: 0;}
+.cards tbody tr td[data-action="Action"] br,.cards tbody tr td[data-action="Action"] label{display: none;}
+.cards tbody tr td a.btn,.cards tbody tr td  form button.btn{font-size: 18px;}
+.cards tbody tr td  form button.btn{padding-left: 6px;padding-right: 6px;}
+.dataTable.no-footer.cards tbody {align-items: flex-start;display: flex;flex-wrap: wrap;}
+/*.cards tbody tr td.card-blank{display: none;}*/
+.mb-0{margin-bottom: 0px !important}
+.ml-5{margin-left: 5px;}
+.width-15{width:15px;}
+.d-flex{display: flex;}
+.vertical-middle{align-items: center;}
+.select_all .bulk_delete input[type="checkbox"]{width: 18px;height: 18px;margin: 0 7px 0 0;}
+.select_all .bulk_delete label{margin:0}
+.select_all .bulk_delete button{margin-left: 10px;}
+div.dataTables_wrapper div.dataTables_processing{position: fixed;background: gray;color: rgb(255, 255, 255);z-index: 10001;}
+div.dataTables_wrapper div.dataTables_processing .table-processing-container{position: fixed;z-index: 10001;color: #fff;top: 50%;left: 50%;width: 200px;margin-left: -100px;margin-top: -26px;text-align: center;padding: 1em 0;border: 1px solid #ccc;background: grey;border-radius: 8px;}
+div.dataTables_wrapper div.dataTables_processing .table-processing-overlay{background: gray;color: rgb(255, 255, 255);width: 100%;height: 100%;top: 0;left: 0; margin: 0;opacity: .5;position: fixed;}
+div.dataTables_wrapper>.row:first-child{position: absolute;bottom: 16px;left: 215px;z-index: 1}
+div.dataTables_wrapper>.row:first-child>div:last-child{display: none;}
+@media screen and (max-width: 884px) {
+   div.dataTables_wrapper>.row:first-child{bottom: 0px;left: calc(50% - 36px);}
+   div.dataTables_wrapper>.row:last-child{margin-bottom: 20px;}
+}
+@media screen and (max-width: 1100px) {
+   .cards tbody tr {width: 48%;margin: 0.5rem;}
+}
+@media screen and (max-width: 767px) {
+   .cards tbody tr {width: 48%;margin: 0.6rem;}
+}
+@media screen and (max-width: 652px) {
+   .cards tbody tr {margin: 0.5rem;}
+}
+@media screen and (max-width: 580px) {
+   .cards tbody tr {margin: 0.4rem;}
+}
+@media screen and (max-width: 500px) {
+   .cards tbody tr {margin: 0.5rem;width: 97%;}
+}

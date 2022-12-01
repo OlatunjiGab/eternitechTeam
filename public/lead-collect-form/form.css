@@ -1,0 +1,268 @@
+
+body {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.eternitech-lp--popup {
+    z-index: 99999;
+}
+
+.form-loader{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:999999;
+    background:url("https://eterni.tech/lead-collect-form/loader.gif") no-repeat center center rgba(0,0,0,0.25);
+    background-size: 100px 100px;
+}
+
+.modal .close:focus {
+    outline: 0;
+    border: 0;
+    outline: none;
+}
+
+.modal {
+    padding-right: 0 !important;
+}
+
+.modal-open {
+    overflow: auto;
+    padding-right: 0 !important;
+}
+
+.modal-content {
+    border: none;
+    border-radius: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.modal-content .modal-header {
+    border-bottom: none;
+}
+
+.modal-content .modal-body {
+    padding: 0 150px;
+}
+
+.modal-content .modal-body h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 20px;
+    color: #1c1c1c;
+}
+
+.modal-content .modal-body h5 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #959595;
+}
+
+.eternitech-lp--popup form label {
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color: #545454;
+}
+
+.eternitech-lp--popup form input {
+    width: 100%;
+    height: 54px;
+    border: none;
+    background-color: #f0f0f0;
+}
+
+.eternitech-lp--popup form input,
+.eternitech-lp--popup form textarea {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #959595;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.eternitech-lp--popup form textarea {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.eternitech-lp--popup form input:focus,
+.eternitech-lp--popup form textarea:focus {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+
+.eternitech-lp--popup a.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.eternitech-lp--popup .row-2 a.btn {
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #030a1c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #030a1c;
+    border-radius: 0;
+    margin-top: 50px;
+}
+
+.eternitech-lp--popup .row-3 a.btn {
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+}
+
+.popup-form-section-2 h3 {
+    margin-bottom: 0 !important;
+    /* max-width: 500px;*/
+}
+
+.eternitech-lp--popup .row-4 {
+    display: flex;
+}
+
+.eternitech-lp--popup form textarea {
+    width: 100%;
+    height: 300px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 0;
+    background-color: #f0f0f0;
+    resize: none;
+}
+
+.popup-form-section-2 a.btn, .popup-form-section-3 a.btn {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #404040;
+    background-color: #cdcdcd;
+    border: none;
+    border-radius: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.popup-form-section-2 a.btn i {
+    font-size: 40px;
+}
+
+.eternitech-lp--popup form .popup-form-submit {
+    border: none;
+    border-radius: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    padding-left: 75px;
+    padding-right: 75px;
+    cursor: pointer;
+}
+
+.modal-content .modal-body p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #d2d2d2;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.hidden {
+    display: none;
+}
+
+.intl-tel-input {
+    width: 100%;
+}
+
+.form-email {
+    margin-top: 0px !important;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 1012px;
+    }
+}
+
+@media (max-width: 576px) {
+    .modal-content .modal-body {
+        padding: 0 25px;
+    }
+
+    .eternitech-lp--popup form label {
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .eternitech-lp--popup .row-2 a.btn,
+    .eternitech-lp--popup .row-3 a.btn {
+        margin-top: 15px;
+    }
+
+    .eternitech-lp--popup form textarea {
+        margin-top: 20px;
+    }
+
+    .popup-form-section-2 a.btn, .popup-form-section-3 a.btn {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .eternitech-lp--popup form .popup-form-submit {
+        padding: 19px;
+    }
+
+    .modal-content .modal-body p {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .modal-content .modal-body {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .eternitech-lp--popup .row-4 {
+        flex-direction: column;
+    }
+
+    .popup-form-section-2 a.btn, .popup-form-section-3 a.btn {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .eternitech-lp--popup form .popup-form-submit {
+        padding: 19px;
+    }
+}
+  

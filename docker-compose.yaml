@@ -1,0 +1,89 @@
+version: "3.7"
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: crm-eternitech
+    container_name: crm-eternitech
+    restart: unless-stopped
+    working_dir: /var/www/
+    volumes:
+      - ./:/var/www
+        #      - ./php.ini-development:/usr/local/etc/php/php.ini
+    networks:
+      - crm
+
+  supervisor:
+    build:
+      context: ./
+      dockerfile: Dockerfile.supervisor
+    image: supervisor-crm
+    container_name: supervisor-crm
+    restart: unless-stopped
+    working_dir: /var/www/
+    volumes:
+     - ./:/var/www
+     - ./supervisor:/etc/supervisor/conf.d
+    expose:
+     - "9001"
+    networks:
+      - crm      
+  nginx:
+    image: nginx:alpine
+    container_name: crm-eternitech-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - certbot-etc:/etc/letsencrypt
+      - ./:/var/www
+        #- ./nginx:/etc/nginx/conf.d/
+      - ./nginx:/etc/nginx/conf.d/
+    networks:
+      - crm
+
+        #redis:
+        #image: redis:7.0.5-alpine
+        #restart: always
+        #ports:
+        #- '6379:6379'
+        #command: redis-server --loglevel warning
+        #container_name: redis 
+        #volumes: 
+        #- redis:/data
+        #networks:
+        #- crm
+
+
+  certbot:
+    depends_on:
+      - nginx
+    image: certbot/certbot
+    container_name: certbot
+    volumes:
+      - certbot-etc:/etc/letsencrypt
+      - ./:/var/www
+    command: certonly --webroot --webroot-path=/var/www/public --email sales@eternitech.com --agree-tos --no-eff-email --force-renewal -d crm.eternitech.com
+
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer
+    volumes:
+      - portainer_data:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: always
+    expose:
+     - "9443"
+    networks:
+     - crm    
+volumes:
+    certbot-etc:
+    portainer_data:
+#    redis:
+networks:
+  crm:
+     driver: bridge
