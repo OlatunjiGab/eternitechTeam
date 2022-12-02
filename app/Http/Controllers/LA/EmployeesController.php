@@ -34,7 +34,7 @@ class EmployeesController extends Controller
 	public $show_action = true;
 	public $view_col = 'name';
 	public $listing_cols = ['id', 'name', 'designation', 'mobile', 'email', 'dept'];
-	public $routes = ['Prospects','Partners','Leads','Experts'];
+	public $routes = ['Prospects','Partners','Leads','Experts','Portfolios'];
 	
 	public function __construct() {
         parent::__construct();

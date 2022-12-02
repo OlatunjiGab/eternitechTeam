@@ -118,7 +118,8 @@ if($user && !empty($user->profile_picture)) {
                             if($menu->name == 'Leads') {
                                 $menu->name = 'My '.$menu->name." ".$leadInfoString;
                             }
-                            elseif ($menu->name == 'Partners'){
+                           
+                            elseif ($menu->name == 'Portfolios'){
                                 $menu->name = $menu->name." ".$leadInfoString;
                             }
                             else {
