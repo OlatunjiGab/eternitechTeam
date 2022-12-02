@@ -37,7 +37,7 @@
                   @if(Auth::user()->canAccess())
                   <h3>@if(isset($data['aRowTotalTodayOutMessage'])) {{$data['aRowTotalTodayOutMessage']}} @endif</h3>
                   @else
-                  <h3><i class="fa fa-locks"></i></h3>
+                  <h3><i class="fa fa-lock"></i></h3>
                   @endif
                   <p>Total Out Messages Today</p>
                 </div>
@@ -54,7 +54,7 @@
                   @if(Auth::user()->canAccess())
                   <h3>@if(isset($data['aRowTotalTodayRepliesMessage'])) {{$data['aRowTotalTodayRepliesMessage']}} @endif</h3>
                   @else
-                  <h3><i class="fa fa-locks"></i></h3>
+                  <h3><i class="fa fa-lock"></i></h3>
                   @endif
                   <p>Total Replies Today</p>
                 </div>
